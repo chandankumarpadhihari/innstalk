@@ -1,0 +1,198 @@
+@import url(https://db.onlinewebfonts.com/c/e55495243d2a48a41382ca887a664332?family=Celari+Titling+W00+Ext+ExBold);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+html,
+body 
+{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body.background-image {
+    background-image: url(https://images.unsplash.com/photo-1691958671724-966fd5a84cc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDk3fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.loginpage{
+    position: relative;
+    width: 370px;
+    height: 400px;
+    background-color: transparent;
+    backdrop-filter:blur(55px);
+    border-radius: 50px 5px;
+    border-style:groove;
+    
+}
+
+
+.loginpage:hover{
+    animation: upanddown 60s;
+    animation-iteration-count: 1;
+}
+
+@keyframes upanddown{
+    0%{bottom:0px;}
+    1%{bottom: 25px;}
+    2%{bottom: 25px;}
+    3%{bottom: 25px;}
+    4%{bottom: 25px;}
+    5%{bottom: 25px;}
+    6%{bottom: 25px;}
+    7%{bottom: 25px;}
+    8%{bottom: 25px;}
+    9%{bottom: 25px;}
+    10%{bottom: 25px;}
+    11%{bottom: 25px;}
+    12%{bottom: 25px;}
+    13%{bottom: 25px;}
+    14%{bottom: 25px;}
+    15%{bottom: 25px;}
+    16%{bottom: 25px;}
+    17%{bottom: 25px;}
+    18%{bottom: 25px;}
+    19%{bottom: 25px;}
+    20%{bottom: 25px;}
+    21%{bottom: 25px;}
+    22%{bottom: 25px;}
+    23%{bottom: 25px;}
+    24%{bottom: 25px;}
+    25%{bottom: 25px;}
+    26%{bottom: 25px;}
+    27%{bottom: 25px;}
+    28%{bottom: 25px;}
+    29%{bottom: 25px;}
+    30%{bottom: 25px;}
+    31%{bottom: 25px;}
+    32%{bottom: 25px;}
+    33%{bottom: 25px;}
+    34%{bottom: 25px;}
+    35%{bottom: 25px;}
+    36%{bottom: 25px;}
+    37%{bottom: 25px;}
+    38%{bottom: 25px;}
+    39%{bottom: 25px;}
+    40%{bottom: 25px;}
+    41%{bottom: 25px;}
+    42%{bottom: 25px;}
+    43%{bottom: 25px;}
+    44%{bottom: 25px;}
+    45%{bottom: 25px;}
+    46%{bottom: 25px;}
+    47%{bottom: 25px;}
+    48%{bottom: 25px;}
+    49%{bottom: 25px;}
+    50%{bottom: 25px;}
+    51%{bottom: 25px;}
+    52%{bottom: 25px;}
+    53%{bottom: 25px;}
+    54%{bottom: 25px;}
+    55%{bottom: 25px;}
+    56%{bottom: 25px;}
+    57%{bottom: 25px;}
+    58%{bottom: 25px;}
+    59%{bottom: 25px;}
+    60%{bottom: 25px;}
+
+
+
+
+}
+
+
+#innstalk{
+text-align: center;
+}
+
+#logo{
+    font-family: "Celari Titling W00 Ext ExBold";
+    margin-top: 40px;
+    color: rgb(29, 29, 67);
+    font-size: 30px;
+}
+
+.loginpage form {
+    text-align: center;
+}
+
+#Username{
+    padding: 10px;
+}
+
+#Username input{
+    position: relative;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px 2px ;
+    background-color:aliceblue;
+    
+}
+
+#Username input:hover{
+     background-color: transparent;
+     transition: all 0.3s;
+}
+
+#Password input{
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 1px 20px;
+    
+}
+
+#Password input:hover{
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+#login button{
+    border-radius: 50px;
+    text-align: center;
+    width: 60px;
+    height: 23px;
+    margin: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#login button:hover{
+    background-color: transparent;
+   
+}
+
+#Rememberpassword{
+    margin-top: 20px ;
+
+}
+
+#Rememberpassword input[type=checkbox]{
+    cursor: pointer;
+
+}
+
+#Rememberpassword input[type=checkbox]:hover{
+    
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+
